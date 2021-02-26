@@ -1,0 +1,110 @@
+ @font-face { font-family: DIN; src: url('DIN.otf'); } 
+  @font-face { font-family: DIN-Bold; src: url('DIN Bold.otf'); } 
+	
+	@font-face { font-family: Montserrat-Bold; src: url('Montserrat-SemiBold.otf'); } 
+
+	@font-face { font-family: MomCake-Bold; src: url('MomCake-Bold.otf'); } 
+	@font-face { font-family: contax; src: url('contax.otf'); } 
+
+	@font-face { font-family: sup-rad; src: url('super-rad.otf'); } 
+		@font-face { font-family: gilmer-light; src: url('Gilmer-Light.otf'); } 
+
+
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+ .navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding: 0px 33px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFFFF;
+    color: #00a654;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #FFFFFF;
+    color: #00a654;
+}
+
+.menu {
+ background-color: #FFFFFF;
+
+}
+
+.menu-items {
+min-height: 70px;
+ font-family: Arial, sans-serif; 
+ color: #000000 !important;
+ font-weight: bold;
+}
+
+.menu-items-list {
+	min-height: 70px;
+	padding: 24px !important; 
+	text-align: center;
+	line-height: 70px;
+}
+
+.about {
+	
+}
+
+
+.brand {
+/*  color: #659D32 !important;
+*/  color: #00a654 !important;
+  font-size: 28px;
+/*  font-family: Lato, sans-serif;
+*/
+  
+/*font-family: contax; 
+*/
+/*font-family: sup-rad; 
+*/
+
+font-family: gilmer-light;
+
+font-weight: bold;
+
+
+  /*momcakebold, */
+}
+
+.gallery {
+	margin-top: 30px;
+
+}
+
+.thumbnail-style {
+	    border: 0 none;
+    box-shadow: none;
+
+
+}
+
+.caption-style {
+	padding: 1px !important; 
+}
+
+.title {
+	margin-top: 10px; 
+	margin-bottom: 5px;
+}
+
+.project-label {
+	color: #324158 !important; 
+	font-size: 20px;
+  font-family: Lato, sans-serif;
+
+	text-decoration: none !important;
+}

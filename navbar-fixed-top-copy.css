@@ -1,0 +1,272 @@
+ @font-face { font-family: DIN; src: url('DIN.otf'); } 
+  @font-face { font-family: DIN-Bold; src: url('DIN Bold.otf'); } 
+	
+	@font-face { font-family: Montserrat-Bold; src: url('Montserrat-SemiBold.otf'); } 
+
+	@font-face { font-family: MomCake-Bold; src: url('MomCake-Bold.otf'); } 
+	@font-face { font-family: contax; src: url('contax.otf'); } 
+
+	@font-face { font-family: sup-rad; src: url('super-rad.otf'); } 
+		@font-face { font-family: gilmer-light; src: url('Gilmer-Light.otf'); } 
+
+
+	@font-face { font-family: HK-regular; src: url('HKGrotesk-Regular.otf'); } 
+	@font-face { font-family: HK-semibold; src: url('HKGrotesk-SemiBold.otf'); }
+		@font-face { font-family: HK-bold; src: url('HKGrotesk-Bold.otf'); } 
+ 
+
+
+
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.navbar-default .navbar-toggle {
+
+	margin-top: 21px;
+	margin-right: 1px;
+}
+
+ .navbar {
+  min-height: 100px;
+    border-width: 0 0 0px; 
+}
+
+.navbar-brand {
+  padding: 0px !important;
+  line-height: 95px;
+  vertical-align: middle;
+
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFFFF;
+    color: #00a654;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #FFFFFF;
+    font-weight: 700;
+    color: #00a654;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #666666;
+}
+
+.menu {
+ background-color: #FFFFFF;
+
+}
+
+.menu-items {
+/* font-family: Arial, sans-serif; 
+*/
+font-family: "HK-regular";
+
+ font-size: 14px;
+ font-weight: 600;
+ /*font-size: 18px;*/
+}
+
+.menu-items-list {
+	min-height: 100px;
+	padding: 38px 0px 0px 36px !important; 
+	text-align: center;
+	line-height: 100px;
+}
+
+
+
+.brand {
+/*  color: #659D32 !important;
+*/  
+
+/*color: #00a654 !important;*/
+
+/*color: #333333 !important;*/
+
+color: #009562  !important;
+  font-size: 24px;
+/*  font-family: Lato, sans-serif;
+*/
+  
+/*font-family: contax; 
+*/
+/*font-family: sup-rad; 
+*/
+
+/*font-family: gilmer-light;
+*/
+
+font-family: HK-regular; 
+font-weight: bold;
+
+
+  /*momcakebold, */
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-left: 110px;
+	padding-right: 110px;
+}
+
+.jumbotron {
+	background-color: #FFFFFF;
+/*	padding-left: 100px !important;
+	padding-right: 100px !important;*/
+	margin-top: 80px;
+	font-family: HK-regular;
+}
+
+.jumbotron-work {
+	background-color: #FFFFFF;
+/*	padding-left: 100px !important;
+	padding-right: 100px !important;*/
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: HK-regular;
+}
+
+.jumbotron p {
+ margin-bottom: 15px; 
+ font-weight: 200;
+ font-size: 32px;
+ color: #222222;
+}
+
+.container-style {
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.gallery {
+	margin-top: 40px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.thumbnail-style {
+	    border: 0 none;
+    box-shadow: none;
+
+}
+
+.caption-style {
+	padding: 1px !important; 
+}
+
+.title {
+	margin-top: 10px; 
+	margin-bottom: 5px;
+}
+
+.project-label {
+	color: #324158 !important; 
+	font-size: 20px;
+  font-family: Lato, sans-serif;
+
+	text-decoration: none !important;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin-right: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    color: #7F7F7F;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #D3D3D3; 
+}
+
+/*styles for about me page*/
+
+
+.about-me {
+		margin-top: 80px;
+}
+
+.category-label {
+	font-size: 14px !important;
+		font-family: HK-bold;
+
+}
+
+.text {
+	font-family: HK-regular;
+	font-size: 16px !important;
+}
+
+
+/*styles for project pages*/
+
+.project-title {
+	font-weight: 400;
+	color: #666666;
+	font-size: 32px;
+}
+
+.project-subtitle {
+	color: #666666;
+	font-size: 18px;
+}
+
+/*.project-intro {
+	max-width: 600px;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}*/
+
+
+
+.project-image-background {
+	position: relative;
+	top: 30px;
+	padding: 0;
+	margin: 0 0 0 0; 
+	background-color: #FFA500;
+	height: 450px;
+}
+
+.container-intro {
+	font-family: HK-regular;
+
+	position: relative;
+	top: 30px;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+.project-background-label {
+	font-weight: 400;
+	color: #666666;
+	font-size: 24px;
+}
+
+.project-text {
+	color: #666666;
+	font-size: 16px;
+}
