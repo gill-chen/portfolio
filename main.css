@@ -153,6 +153,8 @@ font-weight: bold;
 
 .gallery {
 	/* margin-top: 40px; */
+	border-bottom: 1px solid  #D3D3D3;
+
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -310,8 +312,8 @@ font-weight: bold;
 
 .heading-label {
 	font-family: HK-medium;
-	font-weight: 400;
-	color: #666666;
+	font-weight: 500;
+	color: #eb510a;
 	font-size: 24px;
 }
 
@@ -322,12 +324,54 @@ font-weight: bold;
 	/*text-align: justify;*/
 }
 
+.small-project-text {
+	font-family: HK-regular;
+	color: #666666;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.tiny-project-text {
+	font-family: HK-regular;
+	color: #666666;
+	font-size: 11px;
+}
+
+.highlight-text {
+	font-family: HK-bold;
+	color: #eb510a;
+	font-size: 16px;
+}
+
 .row-project-details {
 	padding-top: 10px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid  #D3D3D3;
 	/* margin-left: 0px; 
 	margin-right: 0px; */
+}
+
+
+.row-insights-img {
+	padding-left: 5px;
+	padding-right:0px;
+}
+
+.row-insights-left {
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-right: 0px;
+
+}
+
+.row-insights-middle {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.row-insights-right {
+	padding-left: 40px;
+	padding-right: 20px;
 }
 
 .project-details {
@@ -342,9 +386,24 @@ font-weight: bold;
 }
 
 .heading-three-label {
-	font-family: HK-bold;
-	color: #575757;
+	font-family: HK-semibold;
+	color: #666666;
 	font-size: 20px;
+}
+
+.heading-number {
+	padding-left: 10px;
+	font-family: HK-semibold;
+	color: #eb510a;
+	opacity: 0.6;
+	font-size: 50px;
+}
+
+.heading-number-text {
+	font-family: HK-semibold;
+	color: #eb510a;
+	font-size: 16px;
+	margin-top: 12px;
 }
 
 .intro-img {
@@ -362,6 +421,13 @@ font-weight: bold;
 	max-width:100%;
 	max-height:100%;
 	padding-bottom: 40px;
+}
+
+.insights-img {
+	padding-top: 10px;
+	margin-left: 2px;
+	height: 120px;
+	width: 110px;
 }
 
 .bounding-box {
