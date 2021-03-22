@@ -1,5 +1,5 @@
- @font-face { font-family: DIN; src: url('fonts/DIN.otf'); } 
-  @font-face { font-family: DIN-Bold; src: url('fonts/DIN Bold.otf'); } 
+ 	@font-face { font-family: DIN; src: url('fonts/DIN.otf'); } 
+  	@font-face { font-family: DIN-Bold; src: url('fonts/DIN Bold.otf'); } 
 	
 	@font-face { font-family: Montserrat-Bold; src: url('fonts/Montserrat-SemiBold.otf'); } 
 
@@ -7,15 +7,29 @@
 	@font-face { font-family: contax; src: url('fonts/contax.otf'); } 
 
 	@font-face { font-family: sup-rad; src: url('fonts/super-rad.otf'); } 
-		@font-face { font-family: gilmer-light; src: url('fonts/Gilmer-Light.otf'); } 
+	@font-face { font-family: gilmer-light; src: url('fonts/Gilmer-Light.otf'); } 
 
 
 	@font-face { font-family: HK-regular; src: url('fonts/HKGrotesk-Regular.otf'); } 
 	@font-face { font-family: HK-semibold; src: url('fonts/HKGrotesk-SemiBold.otf'); }
-		@font-face { font-family: HK-bold; src: url('fonts/HKGrotesk-Bold.otf'); } 
-		@font-face { font-family: HK-medium; src: url('fonts/HKGrotesk-Medium.otf'); } 
+	@font-face { font-family: HK-bold; src: url('fonts/HKGrotesk-Bold.otf'); } 
+	@font-face { font-family: HK-medium; src: url('fonts/HKGrotesk-Medium.otf'); } 
+	@font-face { font-family: HK-medium; src: url('fonts/HKGrotesk-Medium.otf'); } 
 
- 
+	@font-face { font-family: inter-regular; src: url('fonts/Inter-Regular.ttf'); } 
+	@font-face { font-family: inter-light; src: url('fonts/Inter-Light.ttf'); } 
+	@font-face { font-family: inter-medium; src: url('fonts/Inter-Medium.ttf'); } 
+	@font-face { font-family: inter-semibold; src: url('fonts/Inter-SemiBold.ttf'); } 
+	@font-face { font-family: inter-bold; src: url('fonts/Inter-Bold.ttf'); } 
+
+.urban-studies {
+	color:#007D19 !important; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 
 
 body {
@@ -24,7 +38,20 @@ body {
   margin: 0;
   overflow-x: hidden !important;
   /* width: 1170px; */
+
+  animation: fadeInAnimation ease 1s; 
+	animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
+
+@keyframes fadeInAnimation { 
+	0% { 
+		opacity: 0; 
+	} 
+	100% { 
+		opacity: 1; 
+	} 
+} 
 
 .navbar-default .navbar-toggle {
 
@@ -33,13 +60,13 @@ body {
 }
 
  .navbar {
-  min-height: 100px;
+  min-height: 90px;
     border-width: 0 0 0px; 
 }
 
 .navbar-brand {
   padding: 0px !important;
-  line-height: 95px;
+  line-height: 85px;
   vertical-align: middle;
 
 }
@@ -80,10 +107,10 @@ font-family: "HK-regular";
 }
 
 .menu-items-list {
-	min-height: 100px;
-	padding: 38px 0px 0px 36px !important; 
+	min-height: 90px;
+	padding: 34px 0px 0px 36px !important; 
 	text-align: center;
-	line-height: 100px;
+	line-height: 90px;
 }
 
 
@@ -97,7 +124,7 @@ font-family: "HK-regular";
 /*color: #333333 !important;*/
 
 color: #009562  !important;
-  font-size: 24px;
+  font-size: 22px;
 /*  font-family: Lato, sans-serif;
 */
   
@@ -117,13 +144,13 @@ font-weight: bold;
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-	padding-left: 110px;
-	padding-right: 110px;
+	padding-left: 112px;
+	padding-right: 112px;
 }
 
 .intro-container{
-	padding-left: 110px;
-	padding-right: 110px;
+	padding-left: 112px;
+	padding-right: 112px;
 }
 
 .jumbotron {
@@ -194,9 +221,14 @@ font-weight: bold;
 }
 
 .project-label {
-	color: #324158 !important; 
+	/* color: #324158 !important;  */
+	color: #000000 !important; 
+
 	font-size: 20px;
-  	font-family: Lato, sans-serif;
+	/* font-family: inter-regular;  */
+
+  	font-family: HK-regular;
+
 
 	text-decoration: none !important;
 }
@@ -247,11 +279,11 @@ font-weight: bold;
 }
 .project-image-background {
 	position: relative;
-	top: 30px;
+	top: 19px;
 	padding: 0;
 	margin: 0 0 0 0; 
 	background-color: #FFA500;
-	height: 450px;
+	height: 460px;
 
 	/* position: absolute;
     top: 0;
@@ -266,7 +298,8 @@ font-weight: bold;
 }
 
 .container-intro {
-	font-family: HK-regular;
+	/* font-family: HK-regular; */
+	font-family: inter-regular;
 
 	position: relative;
 	top: 30px;
@@ -296,9 +329,6 @@ font-weight: bold;
 	line-height: 100px;
 }
 
-.project-details {
-
-}
 
 .project-image-text{
 
@@ -312,12 +342,15 @@ font-weight: bold;
 }
 
 #project-title {
-	font-family: HK-semibold;
+	font-family: inter-semibold;
+	/* font-family: HK-semibold; */
 	font-size: 36px;
 }
 
 #project-subtitle {
-	font-family: HK-regular;
+	font-family: inter-regular;
+
+	/* font-family: HK-regular; */
 	font-size: 15px;
 }
 
@@ -462,7 +495,7 @@ font-weight: bold;
 }
 
 .home-img:hover {
-	transform: scale(1.02); 
+	transform: scale(1.03); 
 }
 
 
@@ -472,7 +505,7 @@ font-weight: bold;
 	max-height:100%;
 	min-width: 100%;
 
-	/* padding: 70px 0px; */
+	/* padding: 70px 0px; */	
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -496,11 +529,95 @@ font-weight: bold;
 	width: 110px;
 }
 
-.bounding-box {
+/* IMAGE EXPAND MODAL */
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+#myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed !important; /* Stay in place */
+	height: 100%;
+
+	z-index: 110000 !important; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0 !important;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: scroll; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+  /* Modal Content (Image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+	.modal-content {
+	  width: 100%;
+	}
+  }
+
+/* .bounding-box {
 	background-image: url(assets/img/Group 96.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
-  }
+  } */
 
 .project-container {
 	position: relative;

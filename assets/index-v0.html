@@ -7,22 +7,22 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Gillian Chen - Home</title>
+    <title>Fixed Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <link href="navbar-fixed-top.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand brand" href="index.html">gillian chen</a>
+          <a class="navbar-brand brand" href="#">gillian chen</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <!-- <ul class="nav navbar-nav">
@@ -64,59 +64,70 @@
             </li>
           </ul> -->
           <ul class="nav navbar-nav navbar-right menu-items">
-            <li class="active"><a class = "menu-items-list" href="index.html#work">Work</a></li>
-            <li class=""><a class="menu-items-list about" href="about.html">About<span class="sr-only">(current)</span></a></li>
-            <li class=""><a class = "menu-items-list" href="contact.html">Contact</a></li>
-
+            <li class="active"><a class = "menu-items-list" href="../navbar-static-top/">Work</a></li>
+            <li class=""><a class="menu-items-list about" href="./">About<span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="container">
+
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron intro-style intro">
-        <p>Hello! I'm Gillian Chen, a UX Designer <br> and Researcher based in Toronto, Canada</p>
-        <span id="work"></span>
-
+<!--       <div class="jumbotron">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
       </div>
-    </div> 
+
+    </div>  -->
     <!-- /container -->
-    <br>  
-    <br>
 
-    <div class="container container-style">
+    <div class="container">
         <div class="row gallery">
-          <div class="col-sm-4 col-md-6">
+          <div class="col-sm-6 col-md-4">
             <div class="thumbnail thumbnail-style">
-              <a href="event-buddy.html"><img class="home-img" src="assets/img/event-buddy-tile.png" alt="event buddy"></a>
-              <div class="caption caption-style">
-                <h3 class="title"><a class="project-label" href="event-buddy.html">Event Buddy Mobile App</a></h3>
-                <p><span class="badge">UX Design</span> <span class="badge">UX Research</span></p>
-              </div>
-            </div>
-          </div>
-
-        <div class="col-sm-4 col-md-6">
-            <div class="thumbnail thumbnail-style">
-              <a href="event-buddy.html"><img class="home-img" src="assets/img/urban-studies-tile (2).png" alt="event buddy"></a>
+              <img src="museum.png" alt="example">
               <div class="caption caption-style">
                 <h3 class="title"><a class="project-label" href="">Urban Studies Website Design</a></h3>
-                <p> <span class="badge">Information Architecture</span><span class="badge">UX Research</span></p>
+                <p>Information Architecture | UX Research</p>
               </div>
             </div>
           </div>
 
-           <div class="col-sm-4 col-md-6">
+        <div class="col-sm-6 col-md-4">
             <div class="thumbnail thumbnail-style">
-              <img src="assets/imgurban-studies.png" alt="example">
+              <img src="event-buddy.png" alt="example">
               <div class="caption caption-style">
-                <h3 class="title"><a class="project-label" href="event-buddy.html">Urban Studies Website Design</a></h3>
+                <h3 class="title"><a class="project-label" href="">Event Buddy Mobile App</a></h3>
                 <p>UX Research and Design</p>
               </div>
             </div>
           </div>
 
+           <div class="col-sm-6 col-md-4">
+            <div class="thumbnail thumbnail-style">
+              <img src="urban-studies.png" alt="example">
+              <div class="caption caption-style">
+                <h3 class="title"><a class="project-label" href="">Urban Studies Website Design</a></h3>
+                <p>UX Research and Design</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="..." alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
