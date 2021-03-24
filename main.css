@@ -546,7 +546,7 @@ font-weight: bold;
 	position: fixed !important; /* Stay in place */
 	height: 100%;
 
-	z-index: 110000 !important; /* Sit on top */
+	z-index: 1100001 !important; /* Sit on top */
 	padding-top: 100px; /* Location of the box */
 	left: 0;
 	top: 0 !important;
