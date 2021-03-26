@@ -26,14 +26,31 @@
 	color:#007D19 !important; 
 }
 
+.national-gallery {
+	/* color:#AA2513 !important;  */
+	color:#C0070D !important; 
+}
+
+.national-gallery-intro-pic {
+	image-rendering: -webkit-optimize-contrast;
+
+	background: url(/assets/img/Google\ Pixel\ 3\ Mockup\ Scene.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
+img {
+	image-rendering: -webkit-optimize-contrast;
+
+}
 
 
 body {
-  min-height: 2000px;
+  min-height: 1400px;
   padding-top: 70px;
   margin: 0;
   overflow-x: hidden !important;
@@ -208,8 +225,13 @@ font-weight: bold;
 .thumbnail-style {
 	    border: 0 none;
     box-shadow: none;
-
 }
+
+/* .thumbnail-style:hover {
+	font-family: HK-semibold !important;
+	transform: scale(1.01); 
+
+} */
 
 .caption-style {
 	padding: 1px !important; 
@@ -217,8 +239,9 @@ font-weight: bold;
 
 .title {
 	margin-top: 10px; 
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
+
 
 .project-label {
 	/* color: #324158 !important;  */
@@ -228,10 +251,33 @@ font-weight: bold;
 	/* font-family: inter-regular;  */
 
   	font-family: HK-regular;
-
-
 	text-decoration: none !important;
+
+	position: relative;
+  display: inline-block;
+
+  color: #666666;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(25, 112, 32), rgb(25, 112, 32) 50%, #222222 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none; // text decorations are clipped in WebKit browsers
 }
+
+.project-label:hover{
+	background-position: 0 100%;
+}
+
+/* .project-label:hover {
+	font-size: 20px;
+	font-family: inter-regular; 
+
+  	font-family: HK-semibold;
+} */
 
 .badge {
     display: inline-block;
@@ -492,10 +538,14 @@ font-weight: bold;
 
 .home-img {
 	transition: .2s;
+	height: 100%;
+	width: 100%;
+
 }
 
 .home-img:hover {
-	transform: scale(1.03); 
+	/* transform: scale(1.03);  */
+	opacity: 0.7;
 }
 
 
@@ -520,6 +570,8 @@ font-weight: bold;
 	max-width:100%;
 	max-height:100%;
 	padding-bottom: 40px;
+	image-rendering: -webkit-optimize-contrast;
+
 }
 
 .insights-img {
