@@ -40,7 +40,7 @@
 .national-gallery-intro-pic {
 	image-rendering: -webkit-optimize-contrast;
 
-	background: url(/assets/img/national-gallery-background-3.png);
+	background: url(/assets/img/national_gallery_background_3.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
