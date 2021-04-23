@@ -489,6 +489,12 @@ font-weight: bold;
 	font-size: 16px;
 }
 
+.emphasize-text {
+	font-family: HK-bold;
+	color: #666666;
+	font-size: 16px;
+}
+
 .underline-text {
 	font-family: HK-regular;
 	text-decoration: underline;
