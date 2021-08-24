@@ -725,6 +725,41 @@ font-weight: bold;
 	}
   }
 
+  @media (max-width: 800px) {
+	.container-style {
+	  padding-left: 10px !important;
+	  padding-right: 10px !important;
+	}
+  }
+
+  @media (max-width: 800px) {
+	.container {
+	  padding-left: 10px !important;
+	  padding-right: 10px !important;
+	}
+  }
+
+  @media (max-width: 800px) {
+	.jumbotron {
+	  padding-left: 10px !important;
+	  padding-right: 10px !important;
+	}
+  }
+
+  @media (max-width: 800px) {
+	.jumbotron-about {
+	margin-top: 30px !important; 
+	  margin-left: 10px !important;
+	  margin-right: 10px !important;
+	  padding-top: 5px !important; 
+	  padding-left: 20px !important; 
+	  padding-right: 20px !important; 
+	}
+  }
+
+
+
+
 /* .bounding-box {
 	background-image: url(assets/img/Group 96.jpg);
 	background-repeat: no-repeat;
